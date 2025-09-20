@@ -59,7 +59,8 @@ You are now connected to your database!
 
 ### Running Queries
 
+1. Be sure to have the students review the [ERD](./erd/chinook_erd.png) before beginning the workshop. Copy the file and paste it in their slack channel.
 1. Open `exercises.sql`. At the bottom left-hand corner of the VS Code window, click **Select Postgres Server** and choose `chinook` -> `chinook`
 2. **Instructors:** Feel free to review the `completed_exercises.sql` file before beginning the workshop. Follow the prompts in `exercises.sql` and generate the queries with the students, helping them to understand and meet the learning objectives defined above. It's unlikely you will get through all the prompts. Push up the queries you and your students worked through together and encourage them to follow the steps in this readme to set it up on their own machine and complete the remaining prompts on their own.
-**Students:** Complete the remaining prompts in `exercise.sql`. If you *and* your teammates get stuck, take a look at `completed_exercises.sql` but try not to use it as a crutch.
-3. To run a query, highlight the single query, right click, and select **run query**
+**Students:** Complete the remaining prompts in `exercise.sql`. Continue to reference the [ERD](./erd/chinook_erd.png). If you *and* your teammates get stuck, take a look at `completed_exercises.sql` but try not to use it as a crutch. 
+1. To run a query, highlight the single query, right click, and select **run query**
