@@ -24,7 +24,7 @@ This SQL workshop provides hands-on, instructor-led practice for building querie
 git clone git@github.com:nashville-software-school-workshops/chinook.git
 cd chinook
 ```
-1. Create the database and tables with the `Chinook_PostgreSql.sql` script
+3. Create the database and tables with the `Chinook_PostgreSql.sql` script
 ```shell
 # Replace your_username with your psql username. This is likely the username of your operating system
 # If you are unsure of your operating system username, run the command: whoami
@@ -45,15 +45,15 @@ INSERT 0 1000
 INSERT 0 1000
 INSERT 0 715
 ```
-3.  Open the repo in VS CODE and open the PostgreSQL Explorer extension. (It's the elephant icon in the tabs on the left of the window).
-4.  Click the plus icon to add a Database Connection. 
-5.  For hostname enter `localhost`
-6.  For user enter the username you used for step 2
-7.  If you set up a password for your postgres user enter it here, if not leave it blank
-8.  Port should be `5432`
-9.  Choose `Standard Connection`
-10. You should see `chinook` listed in the available options. Choose `chinook`.
-11. For the display name, call it `chinook`
+4.  Open the repo in VS CODE and open the PostgreSQL Explorer extension. (It's the elephant icon in the tabs on the left of the window).
+5.  Click the plus icon to add a Database Connection. 
+6.  For hostname enter `localhost`
+7.  For user enter the username you used for step 2
+8.  If you set up a password for your postgres user enter it here, if not leave it blank
+9.  Port should be `5432`
+10.  Choose `Standard Connection`
+11. You should see `chinook` listed in the available options. Choose `chinook`.
+12. For the display name, call it `chinook`
 
 You are now connected to your database!
 
@@ -63,4 +63,4 @@ You are now connected to your database!
 1. Open `exercises.sql`. At the bottom left-hand corner of the VS Code window, click **Select Postgres Server** and choose `chinook` -> `chinook`
 2. **Instructors:** Feel free to review the `completed_exercises.sql` file before beginning the workshop. Follow the prompts in `exercises.sql` and generate the queries with the students, helping them to understand and meet the learning objectives defined above. It's unlikely you will get through all the prompts. Push up the queries you and your students worked through together and encourage them to follow the steps in this readme to set it up on their own machine and complete the remaining prompts on their own.
 **Students:** Complete the remaining prompts in `exercise.sql`. Continue to reference the [ERD](./erd/chinook_erd.png). If you *and* your teammates get stuck, take a look at `completed_exercises.sql` but try not to use it as a crutch. 
-1. To run a query, highlight the single query, right click, and select **run query**
+3. To run a query, highlight the single query, right click, and select **run query**
